@@ -1,0 +1,67 @@
+:root {
+  --background-color: #242424;
+  --primary-text-color: #e0e0e0;
+  --secondary-text-color: #b0b0b0;
+  --border-color: #444444;
+  --accent-color: #888888;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 3em;
+}
+
+.container img {
+  width: 150px;
+
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--border-color);
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0;
+  margin-bottom: 1em;
+
+  color: var(--secondary-text-color);
+}
+
+.note {
+  color: var(--accent-color);
+}
