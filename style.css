@@ -65,3 +65,18 @@ body {
 .note {
   color: var(--accent-color);
 }
+
+@media (max-width: 450px) {
+  .container {
+    margin: 1em;
+
+    text-align: center;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
