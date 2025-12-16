@@ -9,7 +9,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--primary-text-color);
   background-color: var(--background-color);
 
   font-synthesis: none;
@@ -35,12 +35,30 @@ body {
   margin-bottom: 3em;
 }
 
-.container img {
+.portrait {
   width: 150px;
 
   border-radius: 50%;
   border-style: solid;
   border-color: var(--border-color);
+}
+
+.specialty-icons {
+  margin-top: 1em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.5em;
+}
+
+.specialty-icons img {
+  width: 2.5em;
+
+  /* border-radius: 0.3em; */
+  /* background-color: var(--border-color); */
 }
 
 .profile {
@@ -57,7 +75,6 @@ body {
 
 .subtitle {
   margin: 0;
-  margin-bottom: 1em;
 
   color: var(--secondary-text-color);
 }
