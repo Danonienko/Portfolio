@@ -48,6 +48,7 @@ body {
 
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
@@ -88,6 +89,10 @@ body {
     margin: 1em;
 
     text-align: center;
+  }
+
+  .specialty-icons {
+    margin-top: 0.5em;
   }
 
   .profile {
